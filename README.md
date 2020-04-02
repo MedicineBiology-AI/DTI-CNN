@@ -7,22 +7,22 @@ We provide an example script to run experiments on our dataset:
 - Run `./python/run_CNN.py`: predict drug-target interactions, and evaluate the results with ten cross-validation. 
 
 ### All process
--Run `compute_similarity.m`
+1. -Run `compute_similarity.m`
 
--Run `run_joint.m`
+2. -Run `run_joint.m`
 
--Run `run_DAE.py`
+3. -Run `run_DAE.py`
 
--Run `run_kfold.m`
+4. -Run `run_kfold.m`
 
--Run `run_CNN.py`
+5. -Run `run_CNN.py`
 
 
 
 ### Code and data
 #### `matlab/` directory
 - `compute_similarity.m`: compute Jaccard similarity based on interaction/association network
-- `joint.m`: Splicing the network of drugs and proteins together
+- `joint.m`: splicing the network of drugs and proteins
 - `diffusionRWR.m`: network diffusion algorithm (random walk with restart)
 - `run_joint.m`: implement the joint and RWR above.
 - `run_kfold.m`: combine the feature vector of drug-protein pairs and adopt ten cross-validation to divide dataset 
@@ -32,9 +32,9 @@ We provide an example script to run experiments on our dataset:
 - `au_class.py`: implement the DAE
 - `DAE.py`: implement the DAE
 - `run_DAE`: use the dataset to run DAE
-- `cnn1D`: cnn model
-- `run_CNN`: run cnn1D
-- `transint`: File data process 
+- `cnn1D`: cnn model and set all the parameters
+- `run_CNN`: run cnn1D model
+- `transint`: file data process 
 
 
 #### `data/` directory

@@ -8,9 +8,13 @@ We provide an example script to run experiments on our dataset:
 
 ### All process
 -Run `compute_similarity.m`
+
 -Run `run_joint.m`
+
 -Run `run_DAE.py`
+
 -Run `run_kfold.m`
+
 -Run `run_CNN.py`
 
 

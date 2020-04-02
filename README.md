@@ -54,4 +54,5 @@ We provide an example script to run experiments on our dataset:
 - `mat_drug_disease.txt` 	: Drug-Disease association matrix
 - `Similarity_Matrix_Drugs.txt` 	: Drug similarity scores based on chemical structures of drugs
 - `Similarity_Matrix_Proteins.txt` 	: Protein similarity scores based on primary sequences of proteins
+
 **Note**: drugs, proteins, diseases and side-effects are organized in the same order across all files, including name lists, ID mappings and interaction/association matrices.

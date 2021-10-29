@@ -30,7 +30,7 @@ def get_model():
                                                activation="relu",
                                                name="convolution_1d_layer")
 
-    # 定义最大化池化层
+    # max pooling layer
     max_pooling_layer = keras.layers.MaxPooling1D(pool_size=2, strides=2, padding="same", name="max_pooling_layer")
 
     # reshape layer

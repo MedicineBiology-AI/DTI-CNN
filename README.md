@@ -25,10 +25,10 @@ We provide an example script to run experiments on our dataset:
 - `run_joint.m`: implement the joint and RWR above.
 
 #### `python/` directory
-- `au_class.py`: implement the Auto-encoder
-- `DAE.py`: implement the DAE
-- `run_DAE`: use the dataset to run DAE
-- `run_model.py`: predict drug-target interactions, and evaluate the results with ten cross-validation. 
+- `au_class.py`: implement the autoencoder
+- `DAE.py`: implement the denoising autoencoder
+- `run_DAE`: use the dataset to run denoising autoencoder
+- `run_model.py`: predict drug-target interactions, and evaluate the results with ten cross-validation
 
 
 #### `data/` directory

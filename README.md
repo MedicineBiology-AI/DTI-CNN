@@ -1,4 +1,7 @@
 ## DTI-CNN:
+
+**This repo is moved to [23AIBox](https://github.com/23AIBox/23AIBox-DTI-CNN)**
+
 A learning-based method for drug-targetinteraction prediction based on feature representation learning and deep neural network
 
 ### Quick start
